@@ -1,0 +1,143 @@
+@charset "UTF-8";
+@keyframes tituloPrincipal {
+  from {
+    transform: translate(-200px);
+    opacity: 0;
+    font-size: 100%; }
+  to {
+    transform: translate(center);
+    opacity: 1;
+    font-size: 300%; } }
+
+@keyframes imagenlogo {
+  from {
+    transform: translate(-300px);
+    opacity: 0; }
+  to {
+    transform: translate(center);
+    opacity: 1; } }
+
+@font-face {
+  font-family: "Coolvetica";
+  src: url(../fuente/coolvetica.otf); }
+
+@font-face {
+  font-family: "caviar";
+  src: url(../fuente/CaviarDreams.ttf); }
+
+main {
+  padding: 8px;
+  text-align: center;
+  font-family: "caviar";
+  font-size: 18px;
+  color: white;
+  background-image: linear-gradient(135deg, #00b712 0%, #26977f 74%); }
+  main article {
+    margin: 10px 0px 20px;
+    font-size: 24px;
+    font-weight: bold; }
+  main h2 {
+    padding-top: 12px; }
+
+.feriaSV{
+  display: flex inline;
+  flex-direction: row;
+  margin: 0% 2% 2% 1%;
+  
+}    
+
+.imagenIndex1 {
+  width: 70%;
+  height: 55%; }
+
+.imagenIndex2 {
+  width: 70%;
+  height: 55%; }
+
+.textoContacto-instagram {
+  background-color: #df5edf;
+  border: black 3px;
+  font-size: 20px;
+  margin: 0% 40% 3% 40%; }
+
+.textoContacto-whatsapp {
+  background-color: #35c222;
+  border: black 3px;
+  font-size: 20px;
+  margin: 0% 40% 3% 40%; }
+
+* {
+  margin: 0px;
+  padding: 0px; }
+
+header {
+  background-image: url(../img/27475-blancos.jpg);
+  width: vmin; }
+  header h1 {
+    font-size: 300%;
+    font-family: "Coolvetica";
+    font-weight: bold;
+    color: black;
+    letter-spacing: 2px;
+    padding: 1% 2% 0% 2%;
+    text-align: center;
+    animation-name: tituloPrincipal;
+    animation-iteration-count: 1;
+    animation-duration: 2000ms; }
+  header img {
+    animation-name: imagenlogo;
+    animation-iteration-count: 1;
+    animation-duration: 2300ms; }
+
+nav {
+  padding: 1%;
+  background-color: black;
+  color: white;
+  font-family: "caviar";
+  font-weight: bold;
+  font-size: 135%;
+  text-align: center;
+  /* Pagina "¿Quienes somos?" */
+  /* Pagina "Contacto" */ }
+  nav .navIndex {
+    margin: 6%; }
+  nav .tituloQS {
+    font-size: 150%;
+    padding-left: 21%;
+    text-align: center; }
+  nav .menuQS {
+    margin-left: 38%;
+    padding: 0px 100px;
+    color: black;
+    background-color: white; }
+  nav .menuC {
+    margin-left: 40%;
+    padding: 4px;
+    color: black;
+    background-color: white; }
+  nav .tituloC {
+    font-size: 150%;
+    padding-left: 44%;
+    text-align: center;
+    margin-top: 30%; }
+
+.transicionNav {
+  transition: all 700ms;
+  color: white;
+}
+
+.transicionNav:hover {
+  font-size: 25px;
+  background-image: linear-gradient(135deg, #00b712 0%, #26977f 74%); }
+
+article {
+  margin: 10px 0px 20px; }
+
+footer {
+  background-color: black;
+  color: white;
+  font-family: "caviar";
+  padding: 15px;
+  text-align: center;
+  
+  }
